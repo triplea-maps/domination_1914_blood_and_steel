@@ -9225,8 +9225,6 @@
     <property name="Raids May Be Preceeded By Air Battles" value="true" editable="true">
       <boolean/>
     </property>
-      <boolean/>
-    </property>
     <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
       <boolean/>
     </property>
