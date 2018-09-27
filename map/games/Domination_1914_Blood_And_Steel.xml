@@ -6467,7 +6467,7 @@
       <option name="relationshipChange" value="Bolsheviks:Americans:anyNeutral:War"/>
       <option name="relationshipChange" value="Bolsheviks:Brazilians:anyNeutral:War"/>
       <option name="changeOwnership" value="St. Petersburg:any:Bolsheviks:true"/>
-      <option name="placement" value="St. Petersburg:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:"/>
+      <option name="placement" value="St. Petersburg:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:infantry:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas:gas"/>
       <option name="uses" value="1"/>
     </attachment>
     <attachment name="triggerAttachmentBulgariaAid" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
