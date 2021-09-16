@@ -1,0 +1,594 @@
+<html>
+<body bgcolor="DADADA" align="center">
+
+<div style="text-align: center;">
+<br>
+  	
+<br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 Blood And Steel</span></b><span style="font-size:280%;color:000000;"></span>
+<br>
+
+
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 0.1.0</b></span></th>
+
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Modded by Navalland</b></span>
+<br>==========================================================
+<br>
+<br>
+
+<br>
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:110%;000000"bgcolor="FEECE2"colspan="2">Alliances</th>
+	</tr>
+	<tr>
+	<th bgcolor="ABABAB">Central Powers</th>
+	<th bgcolor="BDBDBD">Allied</th>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Germany</td>
+	<td bgcolor="BDBDBD">Americans</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Austria</td>
+	<td bgcolor="BDBDBD">Britain</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Ottomans</td>
+	<td bgcolor="BDBDBD">France</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Bulgaria</td>
+	<td bgcolor="BDBDBD">Russia</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Bolsheviks</td>
+	<td bgcolor="BDBDBD">Italy</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Serbia</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Greece</td>
+	</tr>
+        <tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Romania</td>
+	</tr>
+        <tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Japan</td>
+	</tr>
+
+</table>
+
+<br>
+
+<br>-Victory Conditions:<br>
+Central Powers:
+1. Allies no longer control three of their capitals 
+2. Central Powers control at least one of their original capitals
+<br>Allies:
+1. Control Berlin, Vienna and Constantinople
+2. Allies must control at least one of their original capitals 
+<br>
+  <br>-About Countries<br>
+Austria can alliance with Ottomans in round1 
+<br>Austria can declare war on Albania
+<br>Russia have spawn units (+6 conscript, +4 Cossack) per turn. If fall Minsk or Moscow. No spawn units
+<br>
+<br>Russia can declare war on Persia
+<br>If Bulgaria join war, France can invasion Macedonia. If France spend 20 PUs, 7 colonial and 2 field_gun units invasion Macedonia.
+<br>Romania can join join war in round6 
+<br>
+<br>Germany can alliance with Ottomans in round1
+<br>
+<br>Germany can support Bolshevik Revolution in round7
+<br>Germany can declare war on Chinese
+<br>Greece can join war in round8
+<br>
+<br>Ottomans can join war in round2
+<br>Ottomans can declare war on Persia
+<br>If Bulgaria join war, Britain can invasion Macedonia. If Britain spend 20 PUs, 7 colonial and 2 field_gun units invasion Macedonia.
+<br>
+<br>Britain can declare war on Albania
+<br>Britain can declare war on Persia
+<br>Japanese can join war in round1
+<br>
+<br>Japanese can only fight against Germany and Austria. Japanese can declare war on Chinese
+<br>Italy can declare war on Central powers in round 3 but if Germany and Austria control all of their original European territory, Belgium, Champagne and have one Allied territory; Italy join Central Powers
+<br>Neutral Americans don't move Western Europe. Neutral Brazil don't move Mediterranean.
+<br>
+<br>Americans can join war in round7. And can send aid to Western Allied (+40 PUs France, +20 PUs Britain) 
+<br>
+<br>Brazil can join war in round8 And can send aid France (+10 PUs)
+<br>
+<br>In round7: October Revolution can begin in St. Petersburg with 20 Bolsheviks infantry and 100 gas.
+  
+<br>
+  When Bulgaria entered the war, Germany, Austira and Ottomans can send aid 3 Pus to Bulgaria.
+
+
+<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Units</b></span>
+<br>==========================================================
+<br>
+<br>Size=transport cost
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="7">Land Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>Supportable</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Cavalry</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>4</td>
+	<td>3</td>
+	<td>Supportable, can blitz</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Field Gun</td>
+	<td>2</td>
+	<td>3</td>
+	<td>1</td>
+	<td>5</td>
+	<td>3</td>
+	<td>Supports</td>
+	</tr>
+	
+	<td>Heavy Gun</td>
+	<td>3</td>
+	<td>4</td>
+	<td>1</td>
+	<td>6</td>
+	<td>5</td>
+	<td>German Unit, Cannot be produced with a factory_minor, Supports</td>
+	</tr>
+
+	<td>Gas</td>
+	<td>6</td>
+	<td>0</td>
+	<td>0</td>
+	<td>-</td>
+	<td>-</td>
+	<td>Impossible production, First Strike, Suicide</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Trench</td>
+	<td>0</td>
+	<td>3</td>
+	<td>-</td>
+	<td>6</td>
+	<td>-</td>
+	<td>German and French unit, 2 hit</td>
+	</tr>	
+	
+	<td>AAGun</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
+	<td>7</td>
+	<td>3</td>
+	<td>1d6 vs each attacking plane</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>factory_minor</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>20</td>
+	<td>N/A</td>
+	<td>Can be placed on territories with pu 2 or more and produce 3 units per turn, can be strategically bombed</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>factory_upgrade</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>15</td>
+	<td>N/A</td>
+	<td>Upgrades a minor factory. Can be placed only on original territories with pu 3 or more and allows production of 10 units per turn, can be strategically bombed</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>factory_major</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>35</td>
+	<td>N/A</td>
+	<td>Can be placed only on original territories with pu 3 or more and produce 10 units per turn, can be strategically bombed</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>harbour</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>15</td>
+	<td>N/A</td>
+	<td>gives 1 movement, can be strategically bombed</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>airfield</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>15</td>
+	<td>N/A</td>
+	<td>Allows scramble, gives movement to air, can be strategically bombed</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">	
+	<td>Bedouin</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>6</td>
+	<td>3</td>
+	<td>Ottomans unit</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Conscript</td>
+	<td>1</td>
+	<td>1</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>supportable</td>
+	</tr>
+		
+	<tr bgcolor="BDBDBD">
+	<td>Colonial</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>supportable</td>
+	</tr>
+		
+	<tr bgcolor="BDBDBD">
+	<td>Stormtruppen</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3.5</td>
+	<td>2</td>
+	<td>German unit, supportable</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Cossack</td>
+	<td>2</td>
+	<td>0</td>
+	<td>2</td>
+	<td>6</td>
+	<td>2</td>
+	<td>Russian unit, can blitz</td>
+	</tr>
+			
+	<tr bgcolor="BDBDBD">
+	<td>Tank</td>
+	<td>3</td>
+	<td>1</td>
+	<td>1</td>
+	<td>10</td>
+	<td>5</td>
+	<td>British and French unit, Only product mainlands, Supports, Blitz, 2 hit, cannot be produced with a factory_minor</td>
+	</tr>
+	
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="6">Air Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Fighter</td>
+	<td>2</td>
+	<td>3</td>
+	<td>3</td>
+	<td>9</td>
+	<td>supports, no air attack and defense</td>
+	</tr>
+	
+	<td>Zeppelin</td>
+	<td>1</td>
+	<td>2</td>
+	<td>5</td>
+	<td>16</td>
+	<td>Impossible production, Strategic Bomber, Supports</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Late Fighter</td>
+	<td>3</td>
+	<td>4</td>
+	<td>4</td>
+	<td>10</td>
+	<td>supports, have 2 air attack power and defense, territory needs either major or upgraded factory and an airfield for production</td>
+	</tr>
+
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="6">Naval Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+	
+	<td>Transport</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2</td>
+	<td>7</td>
+	<td>5 Transport capacity, cannot defend and cannot be taken as casualty. </td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Submarine</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>9</td>
+	<td>British and German unit, Can submerge, first strike</td>
+	</tr>
+
+	<td>Destroyer</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>10</td>
+	<td>anti-stealth</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Cruiser</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>12</td>
+	<td>Cannot be produced with a factory_minor</td>
+	</tr>
+	
+	<td>Carrier</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>20</td>
+	<td>British unit, Cannot be produced with a factory_minor</td>
+	</tr>
+
+	<td>Battlecruiser</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>18</td>
+	<td>Can Bombard, Cannot be produced with a factory_minor</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Battleship</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>24</td>
+	<td>Can Bombard, 2 hit, repairs with harbor, Cannot be produced with a factory_minor</td>
+	</tr>
+
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+
+<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Technology</b></span>
+<br>==========================================================
+<br>
+<br>
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
+	</tr>
+
+    <tr bgcolor="BDBDBD">
+	<th>Tech Type</th>
+	<th>Tech Name</th>
+	<th>Description</th>
+	</tr>
+	
+	<th>Industry</th>
+	<th>Victory Bonds</th>
+	<th>2D6 extra pus per turn</th>
+	</tr>
+	
+	<th>Industry</th>
+	<th>Industry</th>
+	<th>place 5 more units in territories worth 2 or more</th>
+	</tr>	
+	
+	<th>Air</th>
+	<th>Air Superiority</th>
+	<th>Raises fighter and late fighter defense bonus by 1</th>
+	</tr>
+	
+	<th>Air</th>
+	<th>Aerial Dogfighting</th>
+	<th>Raises fighter and late fighter airdefense/airattack by 1</th>
+	</tr>
+
+	<th>Naval</th>
+	<th>Sub Warfare</th>
+	<th>Submarines attack at 3 & defend at 2</th>
+	</tr>
+	
+	<th>Naval</th>
+	<th>Cruiser Bombardment</th>
+	<th>allow cruisers to bombard</th>
+	</tr>
+
+	<th>Naval</th>
+	<th>Convoys</th>
+	<th>Destroyers Defend at 3, Cruisers Defend at 4</th>
+	</tr>
+
+	<th>Naval</th>
+	<th>Merchant Marine</th>
+	<th>Tranports, Destroyers and Cruisers move at 4</th>
+	</tr>
+
+	<th>Land</th>
+	<th>Creeping Barage</th>
+	<th>Field Artillery attacks at 3</th>
+	</tr>
+
+	<th>Land</th>
+	<th>Railway Guns</th>
+	<th>Heavy Artillery defends at 5</th>
+	</tr>
+
+	<th>Land</th>
+	<th>FlameGas</th>
+	<th>Flamethrower Attacks at 5</th>
+	</tr>
+
+	<th>Land</th>
+	<th>Bunkers</th>
+	<th>Trenches defend at 1</th>
+	</tr>
+
+	<th>Land</th>
+	<th>Mobile Warfare</th>
+	<th>Stormtruppen, Conscript, infantry moves at 2</th>
+	</tr>
+
+	<th>Land</th>
+	<th>Tank Upgrade</th>
+	<th>Tank attacks 5</th>
+	</tr>
+</table>
+<br>
+
+
+  <br> -- How Friendly Neutrals work:
+			<br>					They may not be attacked. (IE: can not move into during combat move phase) (DONE)
+			<br>					They can not be flown over. (Done)
+			<br>					They can not be blitzed through. (Done)
+			<br>					During non-combat move, you may move land units into them to capture them and all their units. (Done)
+			  <br>
+	
+<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Explains</b></span>
+<br>==========================================================
+  <br>The ruleset of the "AA-50 rules" (ww2v3) of a well known board game is used as a basis. Deviations, extensions and exceptions from these are all listed in these Game Notes
+    <br>
+      <br>Trench Rules - 1 trenches per territory per turn can be placed. There is no limit to how many you can buy. There is no overall limit of trenches in a territory.
+	<br>
+  <br>Submarine Rules - Destroyers can't hit subs
+    <br>Transport Rules - Transports do not participate in battles and die if attacked and undefended. Cannot be taken as casualties. Transports do not block
+      <br>Bombard Rules - Bombard is restrictd by the number of units landing. Bombard casualties DO return fire
+      <br>
+	<br>Communists are set to neutral towards Germany, Austria, Ottomans and Bulgaria while still being on the same side. This means they cannot co-occupy a territory and do not liberate territory for the other
+	  <br>Western and Southwestern Russian territories are Original German territories
+	    <br>
+	      <br>
+		<br>
+	      <br>
+		<br>
+
+
+<br>
+
+
+
+
+
+<br>==========================================================
+
+
+<br>
+<br>
+</body>
+</html>
